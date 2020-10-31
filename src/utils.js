@@ -3,7 +3,7 @@
 import { MeshBasicMaterial, Group, Mesh, Matrix4, Vector3, Vector4 } from 'three'
 import { SubdivisionModifier } from 'three/examples/jsm/modifiers/SubdivisionModifier.js'
 
-export const { character } = window.CK
+export const { character } = window.EX
 
 export const getName = () => character.data.meta.character_name === '' | !character.data.meta.character_name ? 'Hero' : character.data.meta.character_name
 
